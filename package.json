@@ -1,0 +1,20 @@
+{
+  "name": "dpl",
+  "version": "0.0.1",
+  "bin": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "build": "pkg . --out-path build"
+  },
+  "dependencies": {
+    "commander": "^2.19.0",
+    "execa": "^1.0.0",
+    "is-reachable": "^3.0.0",
+    "listr": "^0.14.3",
+    "rxjs": "^6.3.3",
+    "wifi-name": "^3.1.1"
+  },
+  "devDependencies": {
+    "pkg": "^4.3.5"
+  }
+}
